@@ -30,5 +30,5 @@ describe("<PokemonList />", () => {
     // check these two pokemon name text are visible on screen
     expect(screen.getByText("bulbasaur")).toBeVisible();
     expect(screen.getByText("eevee")).toBeVisible();
-  })
+  });
 });

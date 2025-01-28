@@ -18,6 +18,6 @@ const PokemonList = ({ pokemonList }) => {
       ))}
     </div>
   );
-}
+};
 
 export default PokemonList;

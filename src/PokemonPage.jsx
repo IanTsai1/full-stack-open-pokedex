@@ -77,6 +77,6 @@ const PokemonPage = ({ previous, next }) => {
       </div>
     </>
   );
-}
+};
 
 export default PokemonPage;
