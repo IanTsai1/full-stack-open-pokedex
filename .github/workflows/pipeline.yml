@@ -17,3 +17,7 @@ jobs:
         run: npm install
       - name: Check style
         run: npm run lint
+      - name: Run test
+        run: npm test
+      - name: Run build
+        run: npm build
