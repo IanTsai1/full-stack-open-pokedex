@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.static("dist"));
 
-// adding a comment for PR
+// adding a comment for PR; this is the actual comment
 app.get("/health", (req, res) => {
   res.send("ok");
 });
