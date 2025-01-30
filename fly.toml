@@ -27,7 +27,6 @@ primary_region = 'nrt'
     interval = "30s"
     method = "GET"
     timeout = "5s"
-    path = "/"
 
 [[vm]]
   memory = '1gb'
