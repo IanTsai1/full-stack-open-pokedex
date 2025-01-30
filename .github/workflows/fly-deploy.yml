@@ -16,3 +16,7 @@ jobs:
       - run: flyctl deploy --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      - name: Health Check
+        run: |
+          DEPLOY_URL=$(flyctl status | grep -oP 'https://\S+')
+          curl --fail "$DEPLOY_URL/health"
